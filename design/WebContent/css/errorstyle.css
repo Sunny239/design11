@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+body {
+    font-family: Tahoma, "Times New Roman", sans-serif;
+    font-size: 12px;
+    color: #154ba0;
+    margin: 0px auto;
+    margin-top: 128px;
+    text-align: center;
+}
+div#body_wrapper {
+    margin: 0px auto;
+    border: 1px solid #86b9d6;
+    background: #ffffd9;
+    color: #154ba0;
+    text-align: center;
+    width: 480px;
+    height: 160px;
+}
+div.space {
+    clear: both;
+    display: block;
+    height: 52px;
+}
+h1 {
+    font-size: 20px;
+    margin: 0px;
+}
+image {
+    border: 0px;
+}

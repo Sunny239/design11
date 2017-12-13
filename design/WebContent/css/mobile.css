@@ -1,0 +1,231 @@
+@charset "utf-8";
+.w90{width:1200px}
+@media screen and (min-width: 1370px) {
+.w90 {width: 1200px}
+.nav_l .index_i{padding:0 30px;}
+.nav_area_channel{left:682px;}
+} 
+@media screen and (min-width: 640px) and (max-width: 1370px) {
+.w90 {width:960px}
+.header_search{float:left;}
+.nav_l a{padding:0 15px;}
+.nav_r a{padding:0 1px;}
+.customer_service{margin-right:495px;}
+.promo_left{width:650px;}
+.promo_right{width:300px;}
+
+.flash_l{width:371px;height:231px;}
+.flash_r{width:570px;height:328px;}
+.index_product_list {width:960px;height:820px}
+.p_nav_c{margin-left:-480px}
+
+.area_right,.backToTop{margin-left: 490px;}
+
+/*promo焦点*/
+.promo_banner #full-screen-slider,.promo_banner #slides,.promo_banner #slides li,.promo_banner #slides li a{ width:650px;}
+}
+
+@media screen and (max-width: 639px) {
+.w90 {width:100%;margin:0 auto;}
+.main{min-height:auto}
+.ajax_center .ajax_content{width:0px;display:none}
+.mobile_only{visible:visible;width:auto;height:auto;}
+.pc_none{display:block;height:auto;height:auto;}
+.top_l{display:none;width:0px;}
+.top .fr a{padding:0 1px;}
+img {max-width: 100%;} 
+.promo_left,.promo_right{width:100%}
+.header{height:30px;font-size:12px;background:#f41b45;color:#fff}
+.mobile_logo{float:left;color:#fff;background:url(http://static.haitao.com/img/mobile/mobile_logo.png) no-repeat;height:50px;display:block;width:130px;overflow:hidden;text-indent:-1000px}
+.mobile_logo a{display:block}
+.edit{background:#f41b45;color:#fff;}
+
+
+.header_c,.search_hot,.flexslider,.nav_r,.item_product_class,.tuan_product_list_class,.group_index_pic,.mianbao,.login_ad,.remark_hidden{width:0px;overflow:hidden;display:none;height:0px;}
+.foot{height:100px;overflow:hidden}
+#haitao_tips,.backToTop{top:100px;display:none}
+
+/*login*/
+.login_content{width:100%;margin:20px 0;height:auto}
+.login_ad{}
+.login .login_button{margin-top:20px;}
+.login .button{display:block;width:80%}
+/*search*/
+.header_search{float:right;}
+.search{top:10px;right:10px;left:auto;border:1px solid #fff;}
+.searchselect {WIDTH:48px;color:#999;border-right:1px solid #ccc;}
+.searchselect SPAN {width:38px;}
+.searchContainer input{width:80px;border-radius:none;-webkit-appearance : none ;}
+.searchbtn {padding:8px 3px;background:#999}
+.searchselect UL {LEFT:0px;}
+.searchselect UL { WIDTH:46px;TOP:30px;border:1px solid #ddd}
+.searchselect UL LI {line-height:20px;font-size:12px;text-align:center;}
+
+/*subnav*/
+.sub_nav,.tuan_car_area{line-height:45px;margin:0 0 10px 0;overflow:hidden;height:45px;padding:0;}
+.sub_nav a,.tuan_car_area a{margin:0;padding:0;font-size:16px;text-align:center;width:20%;}
+.sub_nav .on,.sub_nav a:hover{color:#f41b45;background:none;}
+.sub_nav_tuan{padding-left:0;}
+.sub_nav_tuan a{width:20%;}
+.sub_nav_6 a{width:16%;}
+.sub_nav_4 a{width:25%;}
+/*index*/
+.index_tuan_pname{font:16px/20px Microsoft Yahei;height:42px;}
+.index_bg{border-radius:0;}
+
+/*my*/
+.login{max-width:98%}
+.my_left{width:0;display:none}
+.left_r{width:100%}
+.tuan_car_more{width:0;display:none;height:0}
+
+
+.new_i_li {margin:0;line-height:20px;padding:10px;border:none;border-bottom:1px solid #eee}
+.new_i_li h2{font:16px/20px Microsoft Yahei;}
+.new_i_li p{margin:0px}
+.new_i_li .n_img{width:32px;}
+.new_i_li .n_r i{font-size:12px;padding-left:5px;}
+
+
+/*my转运*/
+
+.ship_nav{background:#999;text-align:center}
+.ship_nav a{display:block;float:left;width:15%;padding:10px 0px;color:#fff;border-right:0;}
+.ship_nav a:hover,.ship_nav .on{background:#ff3133;color:#fff;}
+.shipping_address,.ship_channel{float:none;width:100%;font-size:12px}
+.ship_channel_item{padding:0px;}
+.my_ship_address_new li{float:none;}
+/*index*/
+.index_tuan_item{width:100%;border-bottom:1px solid #eee;}
+/*group*/
+.olt .th,.olt td.author,.olt td.comments,.olt td.time,.olt td.date,.olt td.date,.mobile_none,.store_header_intro,.store_nav_search,.store_new_lists .links{width:0px;display:none;height:0px}
+
+/*item*/
+#goods_container{margin:10px auto}
+.item{width:100%;height:150px;overflow:hidden}
+
+.item:hover{border:1px solid #eaeaea}
+.item  .item_title{font:16px/20px Microsoft Yahei;}
+.item .item_pic{float:left;overflow:hidden;margin-right:6px;height:150px;width:150px;}
+.item .item_pic .item_pic_img{display:table-cell;vertical-align:middle;*line-height:1;text-align:center;height:150px;width:150px;}
+.item .item_pic img{max-width:90%;vertical-align:middle;max-height:90%;}
+.item .user_logo{width:0px;display:none;height:0px}
+.item  .item_des{max-height:36px;line-height:18px;overflow:hidden;padding:0;margin:6px 0}
+.item .item_price{padding:3px;}
+.p_info .prod_pic{width:100%}
+.item .item_dig{margin-top:20px}
+.item  .sold_out_tips{position:absolute;top:40px;left:40px;background:url(http://static.haitao.com/img/soldout_small.png) no-repeat;color:#fff;width:60px; height:60px; text-indent:-1000px;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+
+
+/*promo*/
+.promo_item .item,.coupon_items .item{height:auto;}
+.promo_item .item  .promo_title{font:16px/20px Microsoft Yahei;max-height:42px;overflow:hidden}
+.promo_item .item  .promo_des{line-height:16px;}
+.promo_item .item  .promo_des .promo_des_intro{font: 14px/20px Microsoft Yahei;max-height:82px;overflow:hidden}
+.promo_item .item  .promo_des .time{max-height:32px;overflow:hidden}
+
+.promo_item .item  .promo_pic{width:100px;height:100px;overflow:hidden;}
+.promo_item .item  .promo_pic_i{width:100px;height:100px;}
+.zanboxright{float:none;}
+/*tuan*/
+.tuan_clas_nav{background:#fff;padding:10px;border:1px solid #eaeaea;margin-bottom:10px;font:14px/25px Microsoft Yahei;font-weight:normal}
+.tuan_clas_nav .fl{width:auto;float:none;width:0px;height:0px;display:none}
+.tuan_clas_nav .fr{width:auto;float:none}
+.tuan_clas_nav .fr li{float:none;height:25px;overflow:hidden;float:left;width:25%;}
+.tuan_clas_nav a{padding:0px 2px;overflow:hidden;display:inline-block;margin-right:10px;}
+.tuan_clas_nav a:hover,.tuan_clas_nav .on{background:#ff6990;color:#fff;border-radius:2px;}
+
+
+.tuan_items .item:hover{box-shadow:none}
+.tuan_index_specil li{width:100%;margin:6px 0;height:auto}
+.tuan_index_specil li:hover{box-shadow:none;}
+.tuan_index_super{height:auto}
+.tuan_index_super .item{height:auto}
+.brand_des .brand_des_fr,.brand_des  .brand_des_fl,.tuan_prod_intro .tuan_prod_left_pic{width:100%;float:none;padding:0;}
+.tuan_prod_intro .tuan_prod_left_pic{padding:0;height:auto;}
+.ship_area{position:absolute;top:-1px;right:0px;display:none}
+
+.tuan_car_mobile_clear{clear:both;padding-top:6px}
+.tuan_car_item{font-size:12px}
+.tuan_car_item  .p_img img{max-width:96%;max-height:96%}
+.tuan_car_item .p_name{width:40%;}
+.tuan_car_item .tuan_car_weight{width:20%}
+.tuan_car_item .sub_num{width:49%;}
+.tuan_car_item .tuan_car_del{text-align:right;float:right;padding-right:10px;width:40%}
+.tuan_car_item .sub_num input{width:24px;height:24px;border-radius:none;-webkit-appearance : none ;}
+.tuan_car_item .sub_num a{padding:5px 8px;}
+
+.brand_des_fl img{width:100%;max-height:auto;}
+
+/*ship*/
+.ship_channel_price{margin-top:10px}
+.ship_news,.index_area{height:auto;}
+.index_area,.fastchannel,.fastchannel2{font-size:12px;}
+.fastchannel2 .f_pic{width:30px;height:60px;}
+
+.ship_index_center{background:none}
+.ship_index_center .fuwu,.ship_index_center .search_b,.ship_index_center .ship_news{width:100%;border:none;margin-bottom:10px;background:#fff;}
+
+/*store*/
+.store_new_lists li{float:none;width:auto;height:130px;}
+.store_new_lists .s_list_l{width:100px;height:130px;}
+.store_new_lists .s_list_l img{width:80px;}
+.store_new_lists .s_list_intro{height:40px;overflow:hidden;margin-bottom:8px;}
+.store_list .item .store_item_fl{width:100px;height:150px;}
+
+.store_nav a{padding:0 4px;}
+.store_header_pic{float:none;width:100%;}
+.store_header_des{float:none;width:100%}
+
+/*promo*/
+.promo_info .buy{display:none}
+.mobile_promo_pic{display:block;text-align:center}
+.mobile_promo_pic img{max-width:98%;height:auto}
+
+/*bottom_button*/
+.mobile_bottom_button{background:#ddd;height:40px;width:100%;display:block;color:#fff;position:fixed;bottom:45px;text-align:center;line-height:40px;padding:10px 0;z-index:1000;filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity: 0.9;opacity: 0.9;}
+.mobile_bottom_button li{float:left;padding:0 20px}
+
+.mobile_bottom_button_buy,.mobile_bottom_button_notic,.mobile_bottom_button_promo{background:#C00;border-radius:3px;}
+.mobile_bottom_button_buy a,.mobile_bottom_button_notic a,.mobile_bottom_button_promo a{padding:0px 40px;color:#fff}
+.mobile_bottom_button_notic{background:#696}
+.mobile_bottom_button_promo{background:#f60}
+
+.mobile_promo_buy{position:fixed;z-index:9000;height:20px;line-height:20px;width:30px;left:3px;top:300px;border-radius:30px;font-size:12px;overflow:hidden;background:#ff405c;color:#fff;padding:15px 10px;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+.mobile_promo_buy a{color:#fff;}
+.mobile_tuan_car {height:20px;width:20px;overflow:hidden;background:url(http://static.haitao.com/img/ico/web_icon.png) no-repeat -168px -30px;padding-left:22px;}
+
+/*foot_nav*/
+.foot_nav_bg {position: absolute;z-index: -1;top: 0;left: 0;right: 0;bottom: 0;opacity: 0.8;}
+.foot_nav_box {width: 100%;display: -webkit-box;display: -moz-box;-webkit-box-orient: horizontal;-moz-box-orient: horizontal;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+.foot_nav_box > * {-webkit-box-flex: 1;-moz-box-flex: 1;}
+.nav4{ height:45px;}
+.nav4 ul{ position:fixed; z-index:20000; bottom:0;left:0;width:100%}
+.nav4 li{ border:1px solid rgba(190,190,190,1);height:45px;border-bottom:0;border-right:0;position:relative; -webkit-box-shadow:inset 0 0 3px #fff;}
+.nav4 li:nth-of-type(1){border-left;0;}
+.nav4 li>a{ font-size:15px; -webkit-box-sizing:border-box; box-sizing:border-box; /*border:1px solid #f9f8f9;*/  -webkit-tap-highlight-color:rgba(0,0,0,0); border-bottom:0; display:block;  line-height:45px;  text-align:center;  background:-webkit-gradient(linear, 0 0, 0 100%, from(#f1f1f1), to(#dcdcdc), color-stop(35% ,#ededed), color-stop(50%, #e3e3e3) );
+}
+.nav4 li>a:only-child span{  background:none;  padding-left:0;}
+.nav4 li>a.on + dl{  display: block;}
+.nav4 li>a span{  color: #4f4d4f;  display: inline-block;  padding-left: 15px;  background: url(http://static.haitao.com/img/mobile/1.svg#2) no-repeat 4px 18px;
+  -webkit-background-size: 9px auto;  text-shadow:0px 1px 0px #ffffff;}
+.nav4 dl{display:none;  position:absolute;  z-index:10020;  bottom:60px;  left:50%;  width:100px;  margin-left:-50px;background:#e4e3e2;border-radius:5px;  -webkit-box-shadow:inset 0 0 3px #fff;  background:url(http://static.haitao.com/img/mobile/2.svg#3) no-repeat center center;  -webkit-background-size:100%;  background-size:100%;}
+.nav4 dl:before{  content:"";  display:inline-block;  position:absolute;  z-index:240;  bottom:0;  left:50%;   width:10px;  height:8px;  background: url(http://static.haitao.com/img/mobile/1.svg#2) no-repeat center -55px;  -webkit-background-size: 10px auto;  bottom: -7px;
+  margin-left: -5px;}
+.nav4 dl dd{  line-height:45px;  text-align:center;  background:-webkit-gradient(linear, 0 0, 100% 0, from(rgba(194,194,194,0.8)), to(rgba(194,194,194,0.8)), color-stop(50%, rgba(194,194,194,0.8)));  background-size:80% 1px;  background-repeat:no-repeat;
+  background-position: center bottom;}
+.nav4 dl dd:last-of-type{  background:none;}
+.nav4 dl dd a{  font-size: 15px;  display:block;  color:#4f4d4f;  text-shadow:0px 1px 0px #ffffff;  white-space: pre;  overflow: hidden;  text-overflow: ellipsis;}
+.nav4 .masklayer_div{display: none;  position: fixed;  top: 0;  left: 0;  width: 100%;  height: 100%;  z-index: 180;  background: rgba(0,0,0,0);}
+.nav4 .masklayer_div.on{display: block;}
+}
+@media screen and (max-width:320px) {
+.mobile_logo{background:url(http://static.haitao.com/img/mobile/mobile_logo_s.png) no-repeat;height:50px;width:90px;}
+/*logo item*/
+.mobile_brand_items .item{width:80px;height:80px;border-radius:40px;margin:10px;padding:0;border:none}
+.mobile_brand_items .brand_logo img{width:80px;border-radius:40px;height:80px;}
+}
+
+.w90{
+	width:1200px;
+}
